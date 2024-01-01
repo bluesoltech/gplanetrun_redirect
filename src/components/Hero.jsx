@@ -90,7 +90,7 @@ export default function Hero() {
           )}
         </div>
       </div>
-      <button className=" mt-4 bg-transparent hover:bg-[#273775] text-[#21285B] font-semibold hover:text-white py-2 px-4 border border-[#273775] hover:border-transparent rounded">
+      <button className=" my-4 bg-transparent hover:bg-[#273775] text-[#21285B] font-semibold hover:text-white py-2 px-4 border border-[#273775] hover:border-transparent rounded">
         <a href="https://allevents.in/ahmedabad/green-planet-run-marching-green-20/80002144413442?ref=smdl">
           Register Now
         </a>
