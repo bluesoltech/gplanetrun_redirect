@@ -20,7 +20,7 @@ const features = [
   },
   {
     name: "Category",
-    description: "5KM Marathon and 10KM Marathon",
+    description: "5KM Fun Run and 10KM Time Run",
     icon: TagIcon,
   },
 ];
