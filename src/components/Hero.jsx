@@ -40,10 +40,17 @@ export default function Hero() {
   window.onresize = detectWindowSize;
 
   return (
-    <div className="overflow-hidden bg-white py-24 sm:py-5 w-full flex flex-col items-center">
+    <div className="overflow-hidden bg-white  sm:py-5 w-full flex flex-col items-center">
       <div className="py-4 px-6 lg:px-8">
         <div className="sm:flex sm:flex-col xl:flex-row justify-evenly items-around">
           <div className="lg:pr-8 lg:pt-4">
+            {!show && (
+              <img
+                src={Banner}
+                alt="Banner"
+                className="w-[48rem] rounded-xl shadow-xl ring-1 ring-gray-400/10  md:-ml-4 lg:-ml-0"
+              />
+            )}
             <div className="lg:max-w-lg">
               <h2 className="text-base font-semibold leading-7 text-[#273775]">
                 The Marathon
