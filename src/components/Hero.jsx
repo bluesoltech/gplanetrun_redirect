@@ -53,7 +53,7 @@ export default function Hero() {
             )}
             <div className="lg:max-w-lg">
               <h2 className="text-base font-semibold leading-7 text-[#273775]">
-                The Marathon
+                The Run
               </h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                 Green Planet Run
