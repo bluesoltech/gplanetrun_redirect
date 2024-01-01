@@ -85,7 +85,7 @@ export default function Hero() {
             <img
               src={Banner}
               alt="Banner"
-              className="w-[48rem] rounded-xl shadow-xl ring-1 ring-gray-400/10  md:-ml-4 lg:-ml-0"
+              className="w-[48rem] rounded-[10px] shadow-xl ring-1 ring-gray-400/10  md:-ml-4 lg:-ml-0"
             />
           )}
         </div>
